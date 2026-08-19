@@ -1,0 +1,246 @@
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background: rgba(13, 13, 13, 0.8);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
+  /* font-family: cursive; */
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+  padding: 18px 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  /* font-style: ; */
+  /* font-family: cursive; */
+  color: #fff;
+}
+
+.navlinks {
+  display: flex;
+  gap: 32px;
+}
+
+.navlink {
+  text-decoration: none;
+  color: var(--muted);
+  font-size: 1rem;
+  transition: 0.3s;
+  position: relative;
+}
+
+.navlink:hover {
+  color: white;
+}
+
+.navlink::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: var(--accent);
+  transition: 0.3s;
+}
+
+.navlink:hover::after {
+  width: 100%;
+}
+
+.navactions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.navactions button {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.navactions button img {
+  width: 20px;
+  height: 20px;
+}
+
+.resumebtn {
+  padding: 10px 22px;
+  border-radius: 30px;
+  border: 1px solid var(--line);
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.resumebtn:hover,
+.navactions button:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* ---------------- 1024px ---------------- */
+
+@media (max-width: 1024px) {
+  .resumebtn {
+    display: none;
+  }
+  .container {
+    padding: 18px 30px;
+  }
+
+  .navlinks {
+    gap: 24px;
+  }
+
+  .logo {
+    font-size: 1.35rem;
+  }
+}
+
+/* ---------------- 768px ---------------- */
+
+@media (max-width: 768px) {
+  .navlinks {
+    display: none;
+  }
+
+  .container {
+    padding: 16px 20px;
+  }
+
+  .logo {
+    font-size: 1.25rem;
+  }
+
+  .resumebtn {
+    display: none;
+  }
+}
+
+/* ---------------- 480px ---------------- */
+
+@media (max-width: 480px) {
+  .container {
+    padding: 14px 16px;
+  }
+
+  .logo {
+    font-size: 1.1rem;
+  }
+
+  .navactions button {
+    width: 38px;
+    height: 38px;
+  }
+
+  .navactions button img {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+
+
+
+.menuBtn {
+  display: none;
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Mobile Menu */
+
+.mobileMenu {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 100%;
+
+  background: #111;
+
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+
+  gap: 25px;
+
+  padding: 35px 0;
+
+  transform: translateX(120%);
+  transition: .4s ease;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.active {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: all;
+}
+
+.mobileMenu a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.mobileResume {
+  padding: 6px 18px;
+  border: 1px solid var(--line);
+  border-radius: 35px;
+}
+
+/* Tablet */
+
+@media (max-width:768px) {
+
+  .navlinks {
+    display: none;
+  }
+
+  .resumebtn {
+    display: none;
+  }
+
+  .menuBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* Desktop */
+
+@media (min-width:769px) {
+
+  .mobileMenu {
+    display: none;
+  }
+
+  .menuBtn {
+    display: none;
+  }
+
+}
