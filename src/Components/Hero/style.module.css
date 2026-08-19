@@ -38,6 +38,7 @@
     height: 280px;
     border-radius: 28px;
     overflow: hidden;
+    z-index: -10;
 }
 
 .CoverImg img {
@@ -46,11 +47,6 @@
     object-fit: cover;
 }
 
-
-
-
-
-/* Profile  */
 
 
 .profile{
@@ -71,11 +67,6 @@
 
 
 
-
-
-/* avatar */
-
-
 .avatar{
     position: relative;
     width:140px;
@@ -93,10 +84,6 @@
 }
 
 
-
-
-/* content */
-
 .content {
     margin-bottom: 8px;
 }
@@ -107,11 +94,11 @@
     font-weight: 600;
     font-size: 2.25rem;
    letter-spacing: 0.06em;
+   /* -webkit-text-stroke: .12px black; */
+ 
 }
 
 
-
-/* Role */
 .role {
     margin-top: 8px;
     font-family: var(--font-grotesk);
@@ -120,7 +107,6 @@
     color: var(--accent);
 }
 
-/* suncontent */
 
 .subcontent {
     margin-top: 12px;
