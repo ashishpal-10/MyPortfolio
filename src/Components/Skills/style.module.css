@@ -5,6 +5,7 @@
       font-size: 1.875rem;
       line-height: 1.25;
       text-wrap: balance;
+      margin: 10px 20px;
     }
 
     @media (min-width: 640px) {
@@ -34,6 +35,7 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 50px;
+    margin: 10px 20px;
 }
 
  @media (min-width: 1024px) {

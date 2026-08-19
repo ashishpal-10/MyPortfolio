@@ -4,47 +4,67 @@ import Styles from "../Skills/style.module.css";
 
 const Skills = () => {
 
-  const skillsData = [
-  
+ const skillsData = [
   {
     category: "Frontend",
     skills: [
       "HTML5",
       "CSS3",
       "JavaScript",
-      "React",
-      "Next.js",
-      "TypeScript",
-      "Tailwind CSS",
-      
-    ],
-  },
-
-{
-    category: "Backend",
-    skills: [
-      "NodeJs",
-      "Express",
-      "MongoDB",
-      "MySQL",
-    
+      "React.js",
+      "GSAP",
+      "Responsive Design",
     ],
   },
 
   {
-    category: "Tools",
+    category: "Backend",
     skills: [
-      "Figma",
-  
-      "Git",
-      "GutHub",
-     
-  
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "MongoDB",
+      "Mongoose",
     ],
   },
 
+  {
+    category: "Programming",
+    skills: [
+      "C",
+      "C++",
+      "Java",
+      "Python",
+      "JavaScript",
+    ],
+  },
 
+  {
+    category: "Tools & Technologies",
+    skills: [
+      "Git",
+      "GitHub",
+      "Cloudinary",
+      "Vite",
+      "VS Code",
+    ],
+  },
+
+  {
+    category: "Currently Exploring",
+    skills: [
+      "AI/ML",
+      "Generative AI",
+      "RAG",
+      "LangChain",
+      "OpenCV",
+    ],
+  },
 ];
+
+
+
+
   return (
     <section className={Styles.skills} id="skills">
       <div className={Styles.container}>

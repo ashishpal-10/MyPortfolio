@@ -1,6 +1,6 @@
 import React from 'react'
 import Styles from "../Hero/style.module.css"
-import banner from "../../assets/banner.jpg"
+// import banner from "../../assets/banner.jpg"
 
 const CoverImg = () => {
   return (
