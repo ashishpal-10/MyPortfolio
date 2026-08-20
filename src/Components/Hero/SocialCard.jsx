@@ -15,7 +15,8 @@ const SocialCard = () => {
 
                 <div className={Styles.content}>
                     <h1 className={Styles.name}>Ashish Pal</h1>
-                    <p className={Styles.role}>Product Designer &amp; Front-End Engineer</p>
+                     
+                    <p className={Styles.role}>Full-Stack Developer & Computer Science Student</p>
 
                     <div className={Styles.subcontent}>
                         <span className={Styles.subinfo}>Noida , India</span>
