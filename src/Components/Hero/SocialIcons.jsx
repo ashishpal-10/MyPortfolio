@@ -6,10 +6,10 @@ import {RiDownloadLine,RiArrowRightUpLine, RiLinkedinFill ,RiGithubLine,RiTwitte
 const SocialIcons = () => {
     return (
         <>
-            <a href="https://github.com"> < RiGithubLine size={16} /></a>
-            <a href="https://linkedin.com">< RiLinkedinFill size={16} /></a>
-            <a href="https://x.com"> < RiTwitterLine size={16} /> </a>
-            <a href="https://instagram.com"> < RiInstagramLine size={16} /> </a>
+            <a href="https://github.com/ashishpal-10"> < RiGithubLine size={16} /></a>
+            <a href="https://www.linkedin.com/in/ashish-pal-05710a312/">< RiLinkedinFill size={16} /></a>
+            <a href="https://x.com/codedbyashish" > < RiTwitterLine size={16} /> </a>
+            <a href="https://www.instagram.com/your.aashirwad/"> < RiInstagramLine size={16} /> </a>
         </>
     )
 }
