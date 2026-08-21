@@ -1,11 +1,10 @@
 import React from 'react'
 import Styles from "../contact/style.module.css";
 
-// import SocialIcons from '../Hero/SocialIcons.jsx'
 
 const Contact = () => {
   return (
-      <div className={Styles.container}>
+      <div className={Styles.container} id='contact'>
       <div className={Styles.content}>
 
         <h2>Let's Build Something Together.</h2>
