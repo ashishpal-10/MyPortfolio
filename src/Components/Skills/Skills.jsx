@@ -32,7 +32,7 @@ const Skills = () => {
     category: "Programming",
     skills: [
       "C",
-      "C++",
+      // "C++",
       "Java",
       "Python",
       "JavaScript",
@@ -50,16 +50,16 @@ const Skills = () => {
     ],
   },
 
-  {
-    category: "Currently Exploring",
-    skills: [
-      "AI/ML",
-      "Generative AI",
-      "RAG",
-      "LangChain",
-      "OpenCV",
-    ],
-  },
+  // {
+  //   category: "Currently Exploring",
+  //   skills: [
+  //     "AI/ML",
+  //     "Generative AI",
+  //     "RAG",
+  //     "LangChain",
+  //     "OpenCV",
+  //   ],
+  // },
 ];
 
 
