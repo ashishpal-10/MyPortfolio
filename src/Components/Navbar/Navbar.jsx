@@ -24,7 +24,9 @@ const Navbar = () => {
         
         <div className={Styles.navactions}>
   
-          <a href="#resume" className={Styles.mobileResume}>
+          <a href="https://drive.google.com/file/d/1hum3ZINHte6HFM-hswTX8eVGhDWUzuVi/view?usp=drive_link" 
+          target="_blank"
+          className={Styles.mobileResume}>
             Resume
           </a>
 

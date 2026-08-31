@@ -1,112 +1,116 @@
 import React from "react";
 import Styles from "../Project/style.module.css";
-// import { projects } from "./projects";
 
 const Projects = () => {
+  const projects = [
+    {
+      id: 1,
+      title: "AI Resume Roast",
+      description:
+        "An AI-powered resume analysis platform that reviews resumes and provides ATS scores, strengths, weaknesses, missing skills, and personalized improvement suggestions.",
+      image: "https://ik.imagekit.io/9alp3jq6v/ResumeRx%20AI.png",
+      
+      techStack: ["React", "Node.js", "Express.js", "MongoDB", "AI API"],
 
-//    const projects = [
-//   {
-//     id: 1,
-//     title: "Portfolio Website",
-//     description:
-//       "A premium, animated personal portfolio built with HTML, CSS and JavaScript featuring smooth animations and responsive design.",
-//     image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?q=80&w=1200&auto=format&fit=crop",
-//     technologies: ["HTML5", "CSS3", "JavaScript"],
-//     liveLink: "https://your-portfolio.com",
-//     githubLink: "https://github.com/username/portfolio",
-//   },
-//   {
-//     id: 2,
-//     title: "Chat Application",
-//     description:
-//       "A real-time chat application with authentication, Socket.io messaging, online users, and responsive UI.",
-//     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1200&auto=format&fit=crop",
-//     technologies: ["React", "Node.js", "MongoDB", "Socket.io"],
-//     liveLink: "https://chat-app.vercel.app",
-//     githubLink: "https://github.com/username/chat-app",
-//   },
-//   {
-//     id: 3,
-//     title: "Medicine Comparison",
-//     description:
-//       "A MERN stack application to compare medicine prices, search alternatives, and manage products with CRUD functionality.",
-//     image: "https://images.unsplash.com/photo-1584982751601-97dcc096659c?q=80&w=1200&auto=format&fit=crop",
-//     technologies: ["React", "Express", "MongoDB", "Node.js"],
-//     liveLink: "https://medicine-app.vercel.app",
-//     githubLink: "https://github.com/username/medicine-app",
-//   },
-//   {
-//     id: 4,
-//     title: "Gallery App",
-//     description:
-//       "Image gallery with upload, preview, delete functionality using Multer and Express backend.",
-//     image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=1200&auto=format&fit=crop",
-//     technologies: ["React", "Express", "Multer"],
-//     liveLink: "https://gallery-app.vercel.app",
-//     githubLink: "https://github.com/username/gallery-app",
-//   },
-//   {
-//     id: 5,
-//     title: "Pokédex",
-//     description:
-//       "A responsive Pokédex application consuming the Pokémon API with search, filters, and detailed Pokémon information.",
-//     image: "https://images.unsplash.com/photo-1613771404784-3a5686aa2be3?q=80&w=1200&auto=format&fit=crop",
-//     technologies: ["React", "REST API", "CSS"],
-//     liveLink: "https://pokedex.vercel.app",
-//     githubLink: "https://github.com/username/pokedex",
-//   },
-// ];
+      features: [
+        "Resume upload and analysis",
+        "ATS score calculation",
+        "AI-generated feedback",
+        "Resume strengths and weaknesses",
+        "Missing skills detection",
+        "Analysis history",
+      ],
 
+      github: "https://github.com/ashishpal-10/ResumeRx-AI",
+      live: "",
+    },
 
-const projects = [
-  {
-    id: 1,
-    title: "Pokédex App",
-    description:
-      "An interactive Pokémon application built with React and PokéAPI. Users can explore Pokémon through dynamically fetched API data with a clean card-based interface.",
-    image:
-      "https://images.unsplash.com/photo-1613771404721-1f92d799e49f?q=80&w=1200&auto=format&fit=crop",
-    technologies: ["React", "JavaScript", "PokéAPI", "CSS3"],
-    liveLink: "https://your-pokedex.com",
-    githubLink: "https://github.com/username/pokedex",
-  },
+    {
+      id: 2,
+      title: "Tasko",
+      description:
+        "A full-stack task management application that helps users organize, create, update, and manage their daily tasks efficiently.",
+      image: "https://ik.imagekit.io/9alp3jq6v/Tasko.png",
+      techStack: ["React", "Node.js", "Express.js", "MongoDB", "JWT"],
+      features: [
+        "User authentication",
+        "Create, update, and delete tasks",
+        "User-specific tasks",
+        "Secure JWT authentication",
+        "Responsive dashboard",
+        "Task history and management",
+      ],
+      github: "https://github.com/ashishpal-10/Tasko-ByASH",
+      live: "",
+    },
 
-  {
-    id: 2,
-    title: "MHA Character Book",
-    description:
-      "A dynamic My Hero Academia character showcase built with React. The project focuses on reusable components, dynamic rendering and smooth animations using GSAP.",
-    image:
-      "https://images.unsplash.com/photo-1578632767115-351597cf2477?q=80&w=1200&auto=format&fit=crop",
-    technologies: ["React", "JavaScript", "GSAP", "CSS3"],
-    liveLink: "https://your-mha-app.com",
-    githubLink: "https://github.com/username/mha-character-app",
-  },
+    {
+      id: 3,
+      title: "Pokémon Explorer",
+      description:
+        "An interactive Pokémon web application where users can search and explore Pokémon with detailed information using a public API.",
 
-  {
-    id: 3,
-    title: "Portfolio Website",
-    description:
-      "A creative personal portfolio website designed in a neo-brutalist style with animated sections, interactive hover effects, responsive layouts and a showcase of skills and projects.",
-    image:
-      "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?q=80&w=1200&auto=format&fit=crop",
-    technologies: ["HTML5", "CSS3", "JavaScript", "GSAP"],
-    liveLink: "https://your-portfolio.com",
-    githubLink: "https://github.com/username/portfolio",
-  },
+      image:
+        "https://ik.imagekit.io/9alp3jq6v/pokedex.png",
 
-  // {
-  //   id: 4,
-  //   title: "Lama Dev",
-  //   description:
-  //     "A modern web development project inspired by Lama Dev tutorials, focusing on building a responsive and interactive web application with a clean user interface.",
-  //   image:
-  //     "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop",
-  //   technologies: ["React", "JavaScript", "CSS3"],
-  //   liveLink: "https://your-lama-dev-project.com",
-  //   githubLink: "https://github.com/username/lama-dev",
-  // },
-];
+      techStack: ["React", "JavaScript", "CSS", "Pokémon API"],
+
+      features: [
+        "Search Pokémon",
+        "View Pokémon details",
+        "Dynamic API data",
+        "Responsive user interface",
+      ],
+
+      github: "https://github.com/ashishpal-10/PokeDex-ASH",
+      live: "https://pokedex-ash.vercel.app/",
+    },
+
+    {
+      id: 4,
+      title: "MHA Character Explorer",
+      description:
+        "A character exploration application inspired by My Hero Academia, allowing users to browse and discover different characters.",
+
+      image:
+        "https://ik.imagekit.io/9alp3jq6v/deku.png",
+
+      techStack: ["React", "JavaScript", "API"],
+
+      features: [
+        "Character browsing",
+        "Dynamic data rendering",
+        "Search functionality",
+        "Responsive UI",
+      ],
+
+      github: "https://github.com/ashishpal-10/MHA-Character-Book",
+      live: "https://mha-character-book.vercel.app/",
+    },
+
+    {
+      id: 5,
+      title: "Personal Portfolio",
+      description:
+        "A modern and responsive developer portfolio designed to showcase my skills, projects, and experience.",
+
+      image:
+        "https://ik.imagekit.io/9alp3jq6v/portfolio.png",
+
+      techStack: ["React", "JavaScript", "CSS", "Framer Motion"],
+
+      features: [
+        "Responsive design",
+        "Smooth animations",
+        "Interactive UI",
+        "Project showcase",
+        "Contact section",
+      ],
+
+      github: "https://github.com/ashishpal-10/MyPortfolio",
+      live: "https://aashish-23.vercel.app/",
+    },
+  ];
 
   return (
     <section className={Styles.projects} id="project">
@@ -116,33 +120,39 @@ const projects = [
         {projects.map((project) => (
           <div className={Styles.card} key={project.id}>
             <img
+            
               src={project.image}
               alt={project.title}
               className={Styles.image}
             />
+
             <div className={Styles.content}>
               <h3>{project.title}</h3>
 
               <p>{project.description}</p>
+
               <div className={Styles.techStack}>
-                {project.technologies.map((tech) => (
+                {project.techStack.map((tech) => (
                   <span className={Styles.tech} key={tech}>
                     {tech}
                   </span>
                 ))}
               </div>
+
               <div className={Styles.buttons}>
-                <a
-                  href={project.liveLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={Styles.primaryBtn}
-                >
-                  Visit Website ↗
-                </a>
+                {project.live && (
+                  <a
+                    href={project.live || "#"}
+                    target={project.live ? "_blank" : "_self"}
+                    rel={project.live ? "noopener noreferrer" : undefined}
+                    className={Styles.primaryBtn}
+                  >
+                    View Live ↗
+                  </a>
+                )}
 
                 <a
-                  href={project.githubLink}
+                  href={project.github}
                   target="_blank"
                   rel="noopener noreferrer"
                   className={Styles.secondaryBtn}
@@ -157,8 +167,5 @@ const projects = [
     </section>
   );
 };
-
-
-
 
 export default Projects;

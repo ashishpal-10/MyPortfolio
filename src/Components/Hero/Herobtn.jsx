@@ -10,12 +10,12 @@ const Herobtn = () => {
                 Get in touch  < RiArrowRightUpLine />
             </a>
 
-            <a href="/Ashish_Pal_Resume.docx.pdf"
-                download="Ashish_Pal_Resume.docx.pdf"
+            <a href="https://drive.google.com/file/d/1hum3ZINHte6HFM-hswTX8eVGhDWUzuVi/view?usp=drive_link"
+                download="Ashish_Pal_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                Download resume < RiDownloadLine />
+                View Resume < RiDownloadLine />
             </a>
         </div>
     )
