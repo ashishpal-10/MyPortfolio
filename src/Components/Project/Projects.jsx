@@ -9,7 +9,7 @@ const Projects = () => {
       description:
         "An AI-powered resume analysis platform that reviews resumes and provides ATS scores, strengths, weaknesses, missing skills, and personalized improvement suggestions.",
       image: "https://ik.imagekit.io/9alp3jq6v/ResumeRx%20AI.png",
-      
+
       techStack: ["React", "Node.js", "Express.js", "MongoDB", "AI API"],
 
       features: [
@@ -24,6 +24,8 @@ const Projects = () => {
       github: "https://github.com/ashishpal-10/ResumeRx-AI",
       live: "",
     },
+
+
 
     {
       id: 2,
@@ -90,6 +92,26 @@ const Projects = () => {
 
     {
       id: 5,
+      title: "Srijan Apex",
+      description:
+        "A modern full-stack blogging platform that allows admins to create, manage, and publish blog content while providing users with a clean and responsive reading experience.",
+      image:
+        "YOUR_IMAGE_URL",
+      techStack: ["Next.js", "Node.js", "Express.js", "MongoDB", "Mongoose"],
+      features: [
+        "Admin authentication",
+        "Create, update and delete blogs",
+        "Dynamic blog rendering",
+        "User login and logout",
+        "Database-driven content",
+        "Responsive UI",
+      ],
+      github:"",
+      live:"https://srijan-apex.vercel.app/",
+    },
+
+    {
+      id: 6,
       title: "Personal Portfolio",
       description:
         "A modern and responsive developer portfolio designed to showcase my skills, projects, and experience.",
@@ -120,7 +142,7 @@ const Projects = () => {
         {projects.map((project) => (
           <div className={Styles.card} key={project.id}>
             <img
-            
+
               src={project.image}
               alt={project.title}
               className={Styles.image}
