@@ -96,7 +96,7 @@ const Projects = () => {
       description:
         "A modern full-stack blogging platform that allows admins to create, manage, and publish blog content while providing users with a clean and responsive reading experience.",
       image:
-        "YOUR_IMAGE_URL",
+        "https://ik.imagekit.io/9alp3jq6v/Srijan.png",
       techStack: ["Next.js", "Node.js", "Express.js", "MongoDB", "Mongoose"],
       features: [
         "Admin authentication",
@@ -106,7 +106,7 @@ const Projects = () => {
         "Database-driven content",
         "Responsive UI",
       ],
-      github:"",
+      github:"https://github.com/ashishpal-10/Srijan-Apex",
       live:"https://srijan-apex.vercel.app/",
     },
 
