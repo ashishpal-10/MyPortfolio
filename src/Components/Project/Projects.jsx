@@ -26,9 +26,35 @@ const Projects = () => {
     },
 
 
-
     {
       id: 2,
+      title: "Talkative",
+      description:
+        "A real-time chat application that allows users to connect, send messages, share profile information, and see online users through a modern responsive interface.",
+      image: "https://ik.imagekit.io/9alp3jq6v/talkative.png",
+      techStack: [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Mongoose",
+        "Socket.IO",
+        "JWT"
+      ],
+      features: [
+        "User authentication and authorization",
+        "Real-time messaging with Socket.IO",
+        "Online user status",
+        "Profile management",
+        "Secure JWT-based authentication",
+        "Responsive chat interface"
+      ],
+      github: "https://github.com/ashishpal-10/ChatApp",
+      live: "https://chatapp-xc4o.onrender.com"
+    },
+
+    {
+      id: 3,
       title: "Tasko",
       description:
         "A full-stack task management application that helps users organize, create, update, and manage their daily tasks efficiently.",
@@ -47,7 +73,48 @@ const Projects = () => {
     },
 
     {
-      id: 3,
+      id: 4,
+      title: "Srijan Apex",
+      description:
+        "A modern full-stack blogging platform that allows admins to create, manage, and publish blog content while providing users with a clean and responsive reading experience.",
+      image:
+        "https://ik.imagekit.io/9alp3jq6v/Srijan.png",
+      techStack: ["Next.js", "Node.js", "Express.js", "MongoDB", "Mongoose"],
+      features: [
+        "Admin authentication",
+        "Create, update and delete blogs",
+        "Dynamic blog rendering",
+        "User login and logout",
+        "Database-driven content",
+        "Responsive UI",
+      ],
+      github: "https://github.com/ashishpal-10/Srijan-Apex",
+      live: "https://srijan-apex.vercel.app/",
+    },
+
+    {
+      id: 5,
+      title: "MHA Character Explorer",
+      description:
+        "A character exploration application inspired by My Hero Academia, allowing users to browse and discover different characters.",
+
+      image:
+        "https://ik.imagekit.io/9alp3jq6v/deku.png",
+
+      techStack: ["React", "JavaScript", "API"],
+
+      features: [
+        "Character browsing",
+        "Dynamic data rendering",
+        "Search functionality",
+        "Responsive UI",
+      ],
+
+      github: "https://github.com/ashishpal-10/MHA-Character-Book",
+      live: "https://mha-character-book.vercel.app/",
+    },
+    {
+      id: 6,
       title: "Pokémon Explorer",
       description:
         "An interactive Pokémon web application where users can search and explore Pokémon with detailed information using a public API.",
@@ -68,70 +135,9 @@ const Projects = () => {
       live: "https://pokedex-ash.vercel.app/",
     },
 
-    {
-      id: 4,
-      title: "MHA Character Explorer",
-      description:
-        "A character exploration application inspired by My Hero Academia, allowing users to browse and discover different characters.",
 
-      image:
-        "https://ik.imagekit.io/9alp3jq6v/deku.png",
 
-      techStack: ["React", "JavaScript", "API"],
 
-      features: [
-        "Character browsing",
-        "Dynamic data rendering",
-        "Search functionality",
-        "Responsive UI",
-      ],
-
-      github: "https://github.com/ashishpal-10/MHA-Character-Book",
-      live: "https://mha-character-book.vercel.app/",
-    },
-
-    {
-      id: 5,
-      title: "Srijan Apex",
-      description:
-        "A modern full-stack blogging platform that allows admins to create, manage, and publish blog content while providing users with a clean and responsive reading experience.",
-      image:
-        "https://ik.imagekit.io/9alp3jq6v/Srijan.png",
-      techStack: ["Next.js", "Node.js", "Express.js", "MongoDB", "Mongoose"],
-      features: [
-        "Admin authentication",
-        "Create, update and delete blogs",
-        "Dynamic blog rendering",
-        "User login and logout",
-        "Database-driven content",
-        "Responsive UI",
-      ],
-      github:"https://github.com/ashishpal-10/Srijan-Apex",
-      live:"https://srijan-apex.vercel.app/",
-    },
-
-    {
-      id: 6,
-      title: "Personal Portfolio",
-      description:
-        "A modern and responsive developer portfolio designed to showcase my skills, projects, and experience.",
-
-      image:
-        "https://ik.imagekit.io/9alp3jq6v/portfolio.png",
-
-      techStack: ["React", "JavaScript", "CSS", "Framer Motion"],
-
-      features: [
-        "Responsive design",
-        "Smooth animations",
-        "Interactive UI",
-        "Project showcase",
-        "Contact section",
-      ],
-
-      github: "https://github.com/ashishpal-10/MyPortfolio",
-      live: "https://aashish-23.vercel.app/",
-    },
   ];
 
   return (
