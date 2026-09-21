@@ -89,7 +89,7 @@ const Projects = () => {
         "Responsive UI",
       ],
       github: "https://github.com/ashishpal-10/Srijan-Apex",
-      live: "https://srijan-apex.vercel.app/",
+      live: "https://srijan-apex-git-main-aashishpal1001-7123s-projects.vercel.app/",
     },
 
     {
