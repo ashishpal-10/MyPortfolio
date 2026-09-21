@@ -49,7 +49,7 @@
 }
 
 
-@keyframes pulse {
+/* @keyframes pulse { */
 
     /* 0%,
     100% {
@@ -61,11 +61,12 @@
 
     } */
 
-    0%{opacity: 0;}
-    50%{opacity: 5;}
-    100%{opacity: 0;}
+    /* 0%{opacity: 0;} */
+    /* 50%{opacity: 5;} */
+    /* 100%{opacity: 0;} */
 
-}
+/* } */
+
     .profile {
         margin-top: -70px;
         display: flex;
