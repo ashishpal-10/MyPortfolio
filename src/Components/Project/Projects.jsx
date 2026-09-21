@@ -113,27 +113,27 @@ const Projects = () => {
       github: "https://github.com/ashishpal-10/MHA-Character-Book",
       live: "https://mha-character-book.vercel.app/",
     },
-    {
-      id: 6,
-      title: "Pokémon Explorer",
-      description:
-        "An interactive Pokémon web application where users can search and explore Pokémon with detailed information using a public API.",
+    // {
+    //   id: 6,
+    //   title: "Pokémon Explorer",
+    //   description:
+    //     "An interactive Pokémon web application where users can search and explore Pokémon with detailed information using a public API.",
 
-      image:
-        "https://ik.imagekit.io/9alp3jq6v/pokedex.png",
+    //   image:
+    //     "https://ik.imagekit.io/9alp3jq6v/pokedex.png",
 
-      techStack: ["React", "JavaScript", "CSS", "Pokémon API"],
+    //   techStack: ["React", "JavaScript", "CSS", "Pokémon API"],
 
-      features: [
-        "Search Pokémon",
-        "View Pokémon details",
-        "Dynamic API data",
-        "Responsive user interface",
-      ],
+    //   features: [
+    //     "Search Pokémon",
+    //     "View Pokémon details",
+    //     "Dynamic API data",
+    //     "Responsive user interface",
+    //   ],
 
-      github: "https://github.com/ashishpal-10/PokeDex-ASH",
-      live: "https://pokedex-ash.vercel.app/",
-    },
+    //   github: "https://github.com/ashishpal-10/PokeDex-ASH",
+    //   live: "https://pokedex-ash.vercel.app/",
+    // },
 
 
 
